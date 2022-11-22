@@ -1,0 +1,30 @@
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\bin\Debug\net6.0\ServerLogic.deps.json
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\bin\Debug\net6.0\ServerLogic.dll
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\bin\Debug\net6.0\ServerLogic.pdb
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\bin\Debug\net6.0\Shared.dll
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\bin\Debug\net6.0\Shared.pdb
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.csproj.AssemblyReference.cache
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.AssemblyInfoInputs.cache
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.AssemblyInfo.cs
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.csproj.CoreCompileInputs.cache
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.csproj.CopyComplete
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.dll
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\refint\ServerLogic.dll
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.pdb
+C:\Users\Simon\Desktop\VIA - Software Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ref\ServerLogic.dll
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\bin\Debug\net6.0\ServerLogic.deps.json
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\bin\Debug\net6.0\ServerLogic.dll
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\bin\Debug\net6.0\ServerLogic.pdb
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\bin\Debug\net6.0\Shared.dll
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\bin\Debug\net6.0\Shared.pdb
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.csproj.AssemblyReference.cache
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.AssemblyInfoInputs.cache
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.AssemblyInfo.cs
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.csproj.CoreCompileInputs.cache
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.csproj.CopyComplete
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.dll
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\refint\ServerLogic.dll
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ServerLogic.pdb
+C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\ServerLogic\obj\Debug\net6.0\ref\ServerLogic.dll

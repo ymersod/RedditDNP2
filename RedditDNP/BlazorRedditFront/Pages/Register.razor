@@ -1,0 +1,61 @@
+﻿@page "/register"
+@inject NavigationManager navMgr
+@using BlazorRedditFront.Services.Http
+@using System.ComponentModel.DataAnnotations
+@inject IAuthService AuthService
+
+<AuthorizeView>
+    <NotAuthorized>
+        <MudGrid>
+            <MudItem xs="12" sm="7">
+                <MudPaper Class="pa-4">
+                    <MudForm ref="form" @bind-IsValid="Success">
+                        <MudTextField T="string" Required="true" Label="Username" RequiredError="User name is required" @bind-Value="UserName"></MudTextField>
+                        <MudTextField T="string" Required="true" Label="Password" RequiredError="Password is required" @bind-Value="Password"></MudTextField>
+                
+                        <MudTextField T="string" Required="true" RequiredError="Email is required" Label="Email"
+                                      Validation="@(new EmailAddressAttribute() { ErrorMessage = "The email address is invalid" })"@bind-Value="Email"></MudTextField>
+                        <MudTextField T="string" Required="true" Label="Nickname" RequiredError="Password is required" @bind-Value="Nickname"></MudTextField>
+                
+                        <MudNumericField @bind-Value="Age" Label="age" Variant="Variant.Text" Min="0" Max="99"></MudNumericField>
+                        <MudButton id="register" Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!Success)" Class="ml-auto" @onclick="RegisterAsync">Register</MudButton>
+                    </MudForm>
+                </MudPaper>
+            </MudItem>
+        </MudGrid>
+
+
+    </NotAuthorized>
+</AuthorizeView>
+
+@code
+{
+    private string UserName;
+    private string Password;
+    private int Age;
+    private string Email;
+    private string Nickname;
+
+    private bool Success;
+
+    private MudForm form;
+    private async Task RegisterAsync()
+    {
+        try
+        {
+            await AuthService.RegisterAsync(UserName, Password, Age, Email, Nickname);
+            navMgr.NavigateTo("/login");
+        }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+    }
+
+}
+
+<style>
+    #register {
+    margin: 5%;
+    }
+</style>

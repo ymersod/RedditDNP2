@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = BlazorRedditFront
+build_property.RootNamespace = BlazorRedditFront
+build_property.ProjectDir = C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\BlazorRedditFront\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Simon\Desktop\VIA_Software_Engineer\DNP\SejeKoder)\RedditDNP\BlazorRedditFront
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Simon/Desktop/VIA_Software_Engineer/DNP/SejeKoder)/RedditDNP/BlazorRedditFront/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simon/Desktop/VIA_Software_Engineer/DNP/SejeKoder)/RedditDNP/BlazorRedditFront/Pages/CreatePost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simon/Desktop/VIA_Software_Engineer/DNP/SejeKoder)/RedditDNP/BlazorRedditFront/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simon/Desktop/VIA_Software_Engineer/DNP/SejeKoder)/RedditDNP/BlazorRedditFront/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simon/Desktop/VIA_Software_Engineer/DNP/SejeKoder)/RedditDNP/BlazorRedditFront/Pages/LoginBtns.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5CdG5zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simon/Desktop/VIA_Software_Engineer/DNP/SejeKoder)/RedditDNP/BlazorRedditFront/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simon/Desktop/VIA_Software_Engineer/DNP/SejeKoder)/RedditDNP/BlazorRedditFront/Pages/SelectedPost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0ZWRQb3N0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simon/Desktop/VIA_Software_Engineer/DNP/SejeKoder)/RedditDNP/BlazorRedditFront/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simon/Desktop/VIA_Software_Engineer/DNP/SejeKoder)/RedditDNP/BlazorRedditFront/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-unutfsqdmg
+
+[C:/Users/Simon/Desktop/VIA_Software_Engineer/DNP/SejeKoder)/RedditDNP/BlazorRedditFront/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-d06r2kh8cj

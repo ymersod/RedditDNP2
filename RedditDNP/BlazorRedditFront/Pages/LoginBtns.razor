@@ -1,0 +1,35 @@
+﻿@using BlazorRedditFront.Services.Http
+@namespace Login
+@inject NavigationManager navMgr
+@inject IAuthService authService
+
+<AuthorizeView>
+    <Authorized>
+        <img class="icon" src="Logout.png" @onclick="Logout"/>
+    </Authorized>
+    <NotAuthorized>
+        <img class="icon" src=" Login.png" @onclick="Login"/>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+
+    private void Login()
+    {
+        navMgr.NavigateTo("/Login");
+    }
+
+    private async Task Logout()
+    {
+        await authService.LogoutAsync();
+        navMgr.NavigateTo("/");
+    }
+
+}
+
+<style>
+    .icon {
+        width: 30px;
+        cursor: pointer;
+    }
+</style>

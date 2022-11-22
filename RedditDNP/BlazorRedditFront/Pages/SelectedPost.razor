@@ -1,0 +1,45 @@
+﻿@page "/SelectedPost"
+@page "/SelectedPost/{id}"
+@using BlazorRedditFront.Services.Http
+@using global::Shared.Dtos
+@using global::Shared.Models
+@inject IPostService PostService
+
+@if (redditPost == null)
+{
+    <p>
+        <em>Loading.... OR NOTHINGS HERE :I</em>
+    </p>
+}
+else
+{
+    <MudPaper>
+        <MudText Typo="Typo.h2" T="string">@redditPost.PostTitle</MudText>
+        <MudText Style="" Typo="Typo.h3" T="string">@redditPost.PostCreator</MudText>
+        <MudText Typo="Typo.body1" T="string">@redditPost.PostContext</MudText>
+        <MudText Typo="Typo.body2" T="string">@redditPost.Date</MudText>
+    </MudPaper>
+}
+@code {
+    [Parameter] public string id { get; set; }
+
+    private PostFullDto? redditPost;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Console.WriteLine(id);
+            redditPost = await PostService.GetAsync(Int16.Parse(id));
+        }
+        catch (Exception e)
+        {
+            throw new Exception("Big whoops");
+        }
+    }
+
+}
+
+<style>
+    
+</style>

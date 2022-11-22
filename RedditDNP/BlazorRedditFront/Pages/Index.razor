@@ -1,0 +1,66 @@
+﻿@page "/"
+@using global::Shared.Models
+@using BlazorRedditFront.Services.Http
+@using global::Shared.Dtos
+@inject IPostService PostService
+@inject NavigationManager navmgr
+
+
+<h3>Reddit homepage</h3>
+<AuthorizeView>
+    <Authorized>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@CreatePostPage">Create</MudButton>
+    </Authorized>
+</AuthorizeView>
+@if (RedditPosts == null)
+{
+    <p>
+        <em>Loading.... OR NOTHINGS HERE :I</em>
+    </p>
+}
+else
+{
+    @foreach(var post in RedditPosts)
+    {
+        <MudPaper Class="posts">
+            <MudList Clickable="true">
+                <MudListItem Avatar="@Icons.Material.Filled.Chat"Text="@post.PostTitle" OnClick="@(() => OnPostClick(post.index))"></MudListItem>
+            </MudList>
+        </MudPaper>
+        
+    }
+}
+@code {
+    private ICollection<PostBasicDto> RedditPosts;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            RedditPosts = await PostService.GetAllAsync();
+        }
+        catch (Exception e)
+        {
+            RedditPosts = null;
+            throw new Exception("Big whoops");
+        }
+    }
+
+    private void OnPostClick(int id)
+    {
+        navmgr.NavigateTo($"/SelectedPost/{id}");
+    }
+
+    private void CreatePostPage()
+    {
+       navmgr.NavigateTo("/CreatePost");
+    }
+    
+}
+
+<style>
+    .posts {
+    margin-bottom: 1%;
+    max-width: 300px;
+    }   
+</style>

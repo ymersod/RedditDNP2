@@ -1,0 +1,50 @@
+{
+  "Users": [
+    {
+      "Username": "seje1000",
+      "Password": "poopoo",
+      "Email": "simon.99@live.dk",
+      "domain": "reddit",
+      "Nickname": "ymer",
+      "Role": "commoner",
+      "Age": 20,
+      "SecurityLevel": 4
+    },
+    {
+      "Username": "sdf",
+      "Password": "sdsdf",
+      "Email": "simon.99@live.dk",
+      "domain": "reddit",
+      "Nickname": "sdf",
+      "Role": "commoner",
+      "Age": 4,
+      "SecurityLevel": 0
+    },
+    {
+      "Username": "Simon",
+      "Password": "1999",
+      "Email": "simon@email.com",
+      "domain": "reddit",
+      "Nickname": "Ymersod",
+      "Role": "commoner",
+      "Age": 19,
+      "SecurityLevel": 0
+    }
+  ],
+  "Posts": [
+    {
+      "index": 1,
+      "Date": "2022-11-02T14:04:53.2661944+01:00",
+      "PostTitle": "sdf",
+      "PostContext": "sdf",
+      "PostCreator": "stormand"
+    },
+    {
+      "index": 2,
+      "Date": "2022-11-07T17:38:45.3182769+01:00",
+      "PostTitle": "Jeg kan godt lide kager nonnom",
+      "PostContext": "Kager smager godt nomnom",
+      "PostCreator": "Ymersod"
+    }
+  ]
+}

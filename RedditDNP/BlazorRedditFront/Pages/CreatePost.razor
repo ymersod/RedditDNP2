@@ -1,0 +1,94 @@
+﻿@page "/CreatePost"
+@using BlazorRedditFront.Services.Http
+@using System.Security.Claims
+@using global::Shared.Models
+@inject IPostService PostService
+@inject IAuthService AuthService
+
+
+
+<AuthorizeView>
+    <Authorized>
+        <MudGrid>
+            <MudItem xs="12" sm="7">
+                <MudPaper Class="pa-4">
+                    <MudForm ref="form" @bind-isValid="Success">
+                        <MudText id="nickname" Typo="Typo.h3">@NickName</MudText>
+                        <MudTextField T="string" Required="true" Label="Title" RequiredError="User name is required" @bind-Value="Title"></MudTextField>
+                        <MudTextField id="bigText" T="string" Required="true" Label="Whats on your mind?.." RequiredError="text is required"
+                                      Variant="Variant.Outlined" Lines="4" Counter="450" MaxLength="450" Immediate="true"
+                                      Validation="@(new Func<String, IEnumerable<string>>(MaxCharacters))"
+                                      @bind-value="MainText"></MudTextField>
+                        <MudButton id="create" Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!Success)"
+                                   Class="ml-auto" @onclick="CreatePostAsync">Create</MudButton>
+                    </MudForm>
+                </MudPaper>
+            </MudItem>
+        </MudGrid>
+    </Authorized>
+    <NotAuthorized>
+        <h3>U MUST BE LOGGED IN</h3>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+@code {
+    private string Title;
+    private string MainText;
+    private string NickName;
+    private string Username;
+    private bool Success;
+    
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+    private IEnumerable<Claim>? UserClaims;
+
+    protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState authState = await AuthState;
+        ClaimsPrincipal user = authState.User;
+        
+        UserClaims = user.Claims;
+        NickName = user.Claims.First(claim => claim.Type.Equals(ClaimTypes.GivenName)).Value.ToString();
+        Username = user.Claims.First(claim => claim.Type.Equals(ClaimTypes.Name)).Value.ToString();
+    }
+
+    private async Task CreatePostAsync()
+    {
+        try
+        {
+            await PostService.CreatePostAsync(Title, MainText,NickName, Username);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+
+    private IEnumerable<string> MaxCharacters(string ch)
+    {
+        if (!string.IsNullOrEmpty(ch) && 450 < ch?.Length)
+        {
+            yield return "Max 450 characters";
+        }
+    }
+}
+
+<style>
+    #create{
+    margin-top: 5%;
+    }
+    #nickname{
+    margin-bottom: 5%;
+    background-color: #f8ca91;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+           
+    }
+</style>

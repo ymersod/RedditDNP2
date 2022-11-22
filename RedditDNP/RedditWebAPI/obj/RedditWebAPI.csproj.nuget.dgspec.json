@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\RedditWebAPI\\RedditWebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\EfcDataAccess\\EfcDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\EfcDataAccess\\EfcDataAccess.csproj",
+        "projectName": "EfcDataAccess",
+        "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\EfcDataAccess\\EfcDataAccess.csproj",
+        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\EfcDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\ServerLogic\\ServerLogic.csproj": {
+                "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\ServerLogic\\ServerLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\FileData\\FileData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\FileData\\FileData.csproj",
+        "projectName": "FileData",
+        "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\FileData\\FileData.csproj",
+        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\FileData\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\ServerLogic\\ServerLogic.csproj": {
+                "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\ServerLogic\\ServerLogic.csproj"
+              },
+              "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\RedditWebAPI\\RedditWebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\RedditWebAPI\\RedditWebAPI.csproj",
+        "projectName": "RedditWebAPI",
+        "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\RedditWebAPI\\RedditWebAPI.csproj",
+        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\RedditWebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\EfcDataAccess\\EfcDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\EfcDataAccess\\EfcDataAccess.csproj"
+              },
+              "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\FileData\\FileData.csproj": {
+                "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\FileData\\FileData.csproj"
+              },
+              "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\ServerLogic\\ServerLogic.csproj": {
+                "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\ServerLogic\\ServerLogic.csproj"
+              },
+              "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\ServerLogic\\ServerLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\ServerLogic\\ServerLogic.csproj",
+        "projectName": "ServerLogic",
+        "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\ServerLogic\\ServerLogic.csproj",
+        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\ServerLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Simon\\Desktop\\VIA_Software_Engineer\\DNP\\SejeKoder)\\RedditDNP\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
